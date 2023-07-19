@@ -10,6 +10,11 @@
     margin: 0;
     padding: 0;
 }
+p{
+    color: #534C64;
+    text-align: center;
+    
+}
 /* nav section */
 nav{
     display: flex;
@@ -98,7 +103,7 @@ li{
     list-style: none;
 }
 .second{
-    margin-left: 100px;
+    
 }
 .second-items{
     display: flex;
@@ -117,6 +122,53 @@ li{
     color: #F948B2;
 }
 
+
+
+/* Online Games Funny Videos */
+
+.online-games{
+    text-align: center;
+   margin: 25px;
+
+}
+
+.image-games{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin: 20px;
+    gap: 1.5rem;
+    padding: 20px;
+    
+
+}
+.funny-items >img{
+    width:100%;
+}
+
+/* Play-Instantly styles */
+
+.play-image{
+    height: 90%;
+    margin-left: 90px;
+}
+
+
+.Play-Instantly{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 8px;
+    background:  rgb(236, 232, 232) ;
+}
+.haf-image{
+    text-align: center;
+    position:relative;
+    bottom: 18.75rem;
+    margin-left: -9.25rem;
+}
+.haf-header{
+    margin-top: -12.5rem;
+}
 /* responsive styles  */
 
 
@@ -135,6 +187,9 @@ li{
     .logo-icons{
         width: 40px;
     }
+    .banner-title{
+        align-items: center;
+    }
 
     .banner{
         flex-direction:column-reverse;
@@ -148,12 +203,66 @@ li{
         margin-top: 30px;
         
     }
-    ..btn-primary{
+    .second-banner{
+        text-align: center;
+       align-items: center;
+       
+    }
+  
+    .btn-primary{
         font-size:1rem ;
     }
     .second-items{
         flex-direction:column;
         background-color: #fff;
     }
-    
+    .image-games{
+        grid-template-columns: 1fr;
+
+    }
+
+    .Play-Instantly{
+        flex-direction: column;
+        background-color: #fff;
+
+    }
+    .haf-header{
+        margin-top: 50px;
+        margin-bottom: 40px;
+    }
+    /* .play-image > img{
+        margin: 0;
+        padding: 0;
+        width: 100%;
+
+    }
+    .haf-image{
+        margin: 0;
+        padding: 0;
+       
+        position:relative;
+        bottom: 18.75rem;
+        margin-left:0;
+    } */
+
+    .play-image{
+        width: 100%;
+        margin-left: 0;
+       
+}
+
+    .haf-image{
+    position: relative;
+    max-width:300px;
+    margin-left: 0;
+
+
+}
+
+
+
+
+
+
+
 }
